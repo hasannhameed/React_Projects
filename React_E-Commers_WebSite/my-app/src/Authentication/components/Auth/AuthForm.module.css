@@ -1,0 +1,126 @@
+.auth {
+  margin: 3rem auto;
+  width: 95%;
+  max-width: 25rem;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.auth h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  font: inherit;
+  background-color: #eef9fd;
+  color: #000000;
+  border-radius: 4px;
+  border: 1px solid #1dc3ff;
+  width: 100%;
+  text-align: left;
+  padding: 0.25rem;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  color: rgb(255, 255, 255);
+  background-color: #1dc3ff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 0.5rem 2.5rem;
+  width: 100%;
+}
+
+.actions button:hover {
+  background-color: #0277bd;
+  border-color: 2px solid #ffffff;
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  color: #000000;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: transparent;
+  color: #0277bd;
+}
+
+/* Responsive Styles for Mobile Devices */
+
+@media (max-width: 768px) {
+  .auth {
+    width: 90%;
+    max-width: 20rem;
+  }
+
+  .auth h1 {
+    font-size: 1.5rem;
+  }
+
+  .control input {
+    padding: 0.5rem;
+  }
+
+  .actions button {
+    padding: 0.5rem 1rem;
+  }
+
+  .actions .toggle {
+    padding: 0.25rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .auth {
+    width: 95%;
+    max-width: 18rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .auth h1 {
+    font-size: 1.25rem;
+  }
+
+  .control input {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .actions button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .actions .toggle {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+  }
+}

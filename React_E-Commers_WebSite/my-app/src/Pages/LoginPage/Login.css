@@ -1,0 +1,13 @@
+.success-message {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .complain{
+   
+    display: block;
+    margin-left: 80%;
+  }
+  

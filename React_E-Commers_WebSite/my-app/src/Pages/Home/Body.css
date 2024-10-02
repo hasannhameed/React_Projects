@@ -1,0 +1,57 @@
+.containerr {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333; /* Dark text color */
+}
+
+.tour-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.tour-item span {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.tour-date {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tour-place, .tour-spec-place {
+    font-size: 1.1rem;
+    color: #333; /* Dark text color */
+}
+
+.tour-spec-place {
+    color: #666; /* Medium gray text color */
+}
+
+.buy-btn {
+    background-color: #1dc3ff; /* Blue button background color */
+    color: #fff; /* White button text color */
+    border: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    flex-shrink: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.buy-btn:hover {
+    background-color: #357ebd; /* Darker blue on hover */
+}

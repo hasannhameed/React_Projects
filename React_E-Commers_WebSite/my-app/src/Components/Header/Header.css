@@ -1,0 +1,132 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+    border-bottom:3px solid white;
+  }
+  
+  .nav-links {
+    padding-left: 12.24%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+   
+  }
+  
+  .nav-links h5 {
+    margin: 0 20px;
+     
+  }
+  
+  .cart-button {
+    background: none;
+    color: white;
+    border: 2px solid skyblue;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    height: 13rem;
+    z-index: 0;
+    overflow: hidden;
+  }
+  
+  .main h1 {
+    font-size: 6rem;
+    
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    height: 13rem;
+    z-index: 0;
+    overflow: hidden;
+  }
+  
+  .main h1 {
+    font-size: 6rem;
+    
+  }
+  
+  
+  .main-1{
+    background-color: grey;
+    justify-content: center;
+  
+   
+  }
+  .main-2 button{
+    display: flex;
+    justify-content: center;
+    border:2px solid skyblue;
+    font-size: 1.5rem;
+    color:white;
+    background-color: grey;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 40%;
+  }
+  .main-3 img{
+      width: 90px;
+      margin-left: 47%;
+      padding-top: 20px;
+      padding-bottom: 40px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  
+  
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  /* .header li {
+    margin: 0 1rem;
+  } */
+  
+  .header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    color: #ffffff;
+  }
+  
+  

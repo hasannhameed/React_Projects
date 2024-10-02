@@ -1,0 +1,47 @@
+footer {
+    background-color: #1dc3ff;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center;
+  }
+  
+  .footer-title {
+    font-size: 4rem;
+    margin-left: 20%;
+    margin-right: 15px; /* Add some space between the title and the edge */
+  }
+  
+  .footer-icons{
+    margin-top:10px;
+     margin-right: 20%;
+  }
+  
+  .footer-icons ul {
+    list-style: none;
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .footer-icons li {
+     background-color: white;
+    display: inline;
+  }
+  
+  .footer-icons a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .footer-icons a img {
+    width: 40px; /* Adjust the size of the icons as needed */
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-icons a img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  

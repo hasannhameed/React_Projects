@@ -1,0 +1,128 @@
+.p-5{
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  height: 10%;
+
+}
+.p-4{
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  height: 10%;
+
+}
+.Container-1{
+  color: white;
+  background-color: black;
+  border-bottom: 2px solid white;
+}
+.container-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack containers vertically */
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust as needed */
+}
+.me-auto{
+  margin-left:40%;
+  justify-content:space-between;
+}
+section{
+ justify-content: center; 
+ align-items: center;
+ margin-left: 25%;
+}
+.images{
+ padding: 50px;
+}
+.images:hover{
+  transition:  transform 0.3s ease;
+  transform: scale(1.2);
+}
+
+
+.images img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.images:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.container-2{
+  display: flex;
+  justify-content: space-between;
+}
+.Info{
+   padding: 30px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.Info-2{
+  display: flex;
+  margin-left:32% ;
+  padding: 25px;
+}
+.button-1{
+  background-color: grey;
+  color: skyblue;
+  border-radius: 1px rgb(63, 190, 236);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.button-2{
+  background-color: #1dc3ff;
+}
+
+footer {
+  background-color: #1dc3ff;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between; /* Distribute space between items */
+  align-items: center;
+}
+
+.footer-title {
+  font-size: 4rem;
+  margin-left: 20%;
+  margin-right: 15px; /* Add some space between the title and the edge */
+}
+
+.footer-icons{
+  margin-top:10px;
+   margin-right: 20%;
+}
+
+.footer-icons ul {
+  list-style: none;
+  display: flex;
+  gap: 10px; 
+}
+
+.footer-icons li {
+   background-color: white;
+  display: inline;
+}
+
+.footer-icons a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-icons a img {
+  width: 40px; /* Adjust the size of the icons as needed */
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.footer-icons a img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}

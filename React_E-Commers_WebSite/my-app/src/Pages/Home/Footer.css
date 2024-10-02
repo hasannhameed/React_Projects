@@ -1,0 +1,14 @@
+footer {
+    background-color: #1dc3ff;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center;
+  }
+  
+  .footer-title {
+    font-size: 4rem;
+    margin-left: 20%;
+    margin-right: 15px; /* Add some space between the title and the edge */
+  }

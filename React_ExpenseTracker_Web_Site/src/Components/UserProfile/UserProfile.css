@@ -1,0 +1,146 @@
+.UserProfile {
+width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+nav {
+
+  margin-right: 5%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav p {
+
+  border-radius: 5px;
+  background-color: rgb(227, 211, 211);
+  padding: 5px;
+ 
+}
+
+.UserDataForm {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.UserDataForm button {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d9534f;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.UserDataForm button:hover {
+  background-color: #c9302c;
+}
+
+.UserDataForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.UserDataInput {
+  margin-bottom: 15px;
+}
+
+.UserDataInput label {
+
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+
+.UserDataInput input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.UserDataInput input:focus {
+  border-color: #66afe9;
+  outline: none;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+
+.UserDataForm button[type='submit'] {
+  width: 10%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.UserDataForm button[type='submit']:hover {
+  background-color: #b3300072;
+}
+
+.userInfolist {
+  margin-top: 20px;
+}
+
+.userInfolist button {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.userInfolist button:hover {
+  background-color: #b3300072
+}
+
+.userInfolist ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.userInfolist li {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.userInfolist li p {
+  margin: 5px 0;
+  color: black;
+}
+
+.userInfolist li button {
+  align-self: flex-end;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d9534f;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.userInfolist li button:hover {
+  background-color: #c9302c;
+}

@@ -1,0 +1,25 @@
+.container {
+    text-align: center; /* Center align the content inside the container */
+    padding: 10px;
+}
+
+.body-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap onto a new line */
+    margin-top: 20px;
+}
+
+.body-container img {
+    max-width: 300px; /* Set a max width for the image */
+    height: auto;
+    margin-right: 20px; /* Add spacing between image and paragraph */
+}
+
+.body-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 50%; /* Limit paragraph width for better readability */
+}

@@ -1,0 +1,200 @@
+/* Styles for the cart button */
+.button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.button .icon {
+  margin-right: 5px;
+}
+
+.button .badge {
+  background-color: rgb(130, 203, 255);
+  color: white;
+  border-radius: 60%;
+  padding: 2px 6px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+/* Styles for the cart overlay */
+.cart-overlay {
+  position: fixed;
+  top: 0;
+  left: 70%;
+  right: 0;
+  bottom: 0;
+ 
+  z-index: 1000; /* ensure it overlays other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for the cart container */
+.cart {
+  background-color: white;
+  width: 90%;
+  max-width: 600px; /* Limiting max-width for better readability */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+/* Styles for the cart header */
+.cart header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart header h2 {
+  font-size: 1.5rem;
+}
+
+/* Styles for the close button */
+.close-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Styles for the scrollable cart items container */
+.cart-items {
+  max-height: 400px; /* Set the maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-bottom: 20px; /* Add space below the scrollable container */
+}
+
+/* Styles for cart items */
+.cart-box {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.cart-box img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.cart-box p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.cart-box .details {
+  flex: 1;
+}
+
+.cart-box .controls {
+  display: flex;
+  align-items: center;
+}
+
+.cart-box .controls button {
+  background-color: #eee;
+  border: none;
+  color: #333;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.cart-box .controls button:hover {
+  background-color: #ddd;
+}
+
+.cart-box .price {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Styles for cart footer */
+.cart-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .cart {
+    width: 90%;
+  }
+}
+/* Cart.css */
+
+
+
+.cart {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 80vh; /* Adjust this value as needed */
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.cart header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart_img {
+  display: flex;
+  align-items: center;
+}
+
+.cart_img img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.cart_controls {
+  display: flex;
+  align-items: center;
+}
+
+.cart_controls button {
+  margin: 0 5px;
+}
+
+.cart-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
